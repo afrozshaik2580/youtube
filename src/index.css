@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-wrapper::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+.active {
+  fill: red; 
+  color: red; 
+}
