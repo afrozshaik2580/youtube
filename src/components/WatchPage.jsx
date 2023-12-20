@@ -13,6 +13,7 @@ import Iframe from "./Iframe";
 import Title from "./Title";
 import Description from "./Description";
 import CommentsSection from "./CommentsSection";
+import LiveChat from "./LiveChat";
 
 export default function WatchPage() {
   const { id } = useParams();
@@ -93,6 +94,7 @@ export default function WatchPage() {
         </div>
       </div>
       <div className="w-[35%] overflow-hidden pr-3 ">
+        <LiveChat />
         <ButtonList />
         <SuggestionsBox suggestions={suggestions} />
       </div>
