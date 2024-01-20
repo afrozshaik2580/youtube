@@ -13,7 +13,7 @@ export default function ShortSideBar({ display }) {
         display === "hidden" ? display : "flex"
       } flex-col bg-white`}
     >
-      <ShortSideBarButton SVG={HOME_SVG} name="Home" to="/" />
+      <ShortSideBarButton SVG={HOME_SVG} name="Afroz" to="/" />
       <ShortSideBarButton SVG={SHORTS_SVG} name="Shorts" to="shorts" />
       <ShortSideBarButton
         SVG={SUBSCRIPTIONS_SVG}
